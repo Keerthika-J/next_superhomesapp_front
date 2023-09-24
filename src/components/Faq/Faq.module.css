@@ -1,0 +1,15 @@
+.faq_question {
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 20px 0;
+    color: #3b3a3a;
+}
+
+.faq_answer {
+    padding: 20px;
+    color: #3b3a3a;
+}
+
+.faq_accordion_div:not(:last-child) {
+    border-bottom: 0.5px solid #d4d4d4;
+}

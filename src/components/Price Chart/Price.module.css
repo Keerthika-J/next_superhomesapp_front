@@ -1,0 +1,50 @@
+.container {
+  margin: 0px auto;
+}
+
+.question {
+  padding: auto;
+  vertical-align: middle;
+}
+
+.price_container_heading {
+  display: block;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.btn {
+  background: transparent;
+  border-color: transparent;
+
+}
+
+.question_title {
+  cursor: pointer;
+  font-weight: bolder;
+  padding: 20px 0px;
+  color: #3b3a3a;
+}
+
+.question_title svg {
+  height: 20px;
+  margin: 0 10px;
+  width: 20px;
+}
+
+.data_accordion_div_price:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.data_accordion_div_price ol {
+  padding: 20px;
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16"> <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/> </svg>');
+}
+
+.data_accordion_div_price li {
+  padding: 5px;
+  color: #3b3a3a;
+}

@@ -1,0 +1,162 @@
+/* body
+{
+  background-image: linear-gradient(to right, #804b99 , #3c3085);
+} */
+.banner_1_text {
+  color: white;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.625 !important;
+}
+
+.banner-2-text {
+  color: #3B3A3A;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dash-tabs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.dash-block-tabs {
+  display: block;
+  width: 50px;
+  outline: none;
+  border: none;
+}
+
+.dash-tabs:focus {
+  border: none;
+}
+
+.dash-tabs {
+  cursor: pointer;
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  border: none;
+}
+
+.dash-active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+}
+
+.dash-content-tabs {
+  flex-grow: 1;
+
+}
+
+.dash-content {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.dash-active-content {
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .dash-panel {
+    display: none;
+  }
+}
+
+.linkss {
+  opacity: 0.5;
+}
+
+/* z */
+.sliderimg {
+  width: 100%;
+  height: 650px;
+  border-radius: 12px;
+  object-fit: cover
+}
+
+.previousButton,
+.nextButton {
+  display: none !important;
+}
+
+.blogs-col {
+  background-color: #f5eee4;
+  border-radius: 12px;
+}
+
+.blogs-title {
+  display: block;
+  margin: 16px;
+  font-size: 20px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.blogs-desc {
+  display: block;
+  margin: 16px;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.iframe-div iframe {
+  border-radius: 12px;
+}
+
+.iframe-div a {
+  color: #3c3085;
+}
+
+.slideshow-light::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.slideshow-invert::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.home_main_banner {
+  width: 91.666667%;
+  height: calc(100vh - 64px);
+  background-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(/images/SH_Home_Banner.png);
+  background-size: cover;
+  background-position: top;
+  display: block;
+  margin: 32px auto 0px;
+  border-radius: 12px;
+}

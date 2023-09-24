@@ -1,0 +1,22 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html",
+  "/_document": "pages/_document.js",
+  "/about-us": "pages/about-us.html",
+  "/blogs": "pages/blogs.html",
+  "/careers": "pages/careers.html",
+  "/contact-us": "pages/contact-us.html",
+  "/design-and-construction": "pages/design-and-construction.html",
+  "/faq": "pages/faq.html",
+  "/": "pages/index.html",
+  "/interiors": "pages/interiors.html",
+  "/latest-projects": "pages/latest-projects.html",
+  "/privacy-policy": "pages/privacy-policy.html",
+  "/project-management": "pages/project-management.html",
+  "/responsibility": "pages/responsibility.html",
+  "/solutions": "pages/solutions.html",
+  "/terms-and-condtions": "pages/terms-and-condtions.html",
+  "/blogs/[slugs]": "pages/blogs/[slugs].js",
+  "/latest-projects/[slugs]": "pages/latest-projects/[slugs].js"
+}

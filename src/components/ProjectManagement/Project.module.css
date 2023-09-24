@@ -1,0 +1,139 @@
+.projects_table th {
+  padding: 12px 0px;
+  border-radius: 12px;
+}
+
+.projects_table td {
+  padding: 12px;
+  /* color: black; */
+  border-radius: 12px;
+}
+
+.projects_table li {
+  padding: 5px;
+}
+
+.side_table_heading {
+  background-color: #323232;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.light_col_content {
+  background-color: #e6c4a8;
+}
+
+.gray_col_content {
+  background-color: #4b4b4b;
+  color: white;
+}
+
+.heading_text {
+  border-radius: 12px;
+  background-color: #323232;
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+
+.content_text {
+  border-radius: 12px;
+  background-color: #cda17c;
+  padding: 12px 16px;
+  margin: 8px 0;
+}
+
+.content_heading {
+  font-weight: bold;
+  display: block;
+}
+
+.animations_circle svg {
+  width: 200px;
+  height: 200px;
+}
+
+.animations_circle circle {
+  fill: transparent;
+  stroke: #3c3085;
+  stroke-width: 10px;
+  stroke-dasharray: 471;
+  stroke-dashoffset: 471;
+  animation: clock-animation 6s linear infinite;
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+@keyframes clock-animation {
+  0% {
+    stroke-dashoffset: 471;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+.test::after {
+  content: counter(count);
+  animation: counter 6s linear infinite forwards;
+  counter-reset: count 0;
+}
+
+@keyframes counter {
+  0%{
+    counter-increment: count 1;
+  }
+  25% {
+    counter-increment: count 2;
+  }
+
+  50% {
+    counter-increment: count 3;
+  }
+
+  75% {
+    counter-increment: count 4;
+  }
+
+  100% {
+    counter-increment: count 1;
+  }
+}
+
+
+@keyframes test {
+  25% {
+    content: 'Discuss Requirement';
+  }
+
+  50% {
+    content: 'Cost Estimation';
+  }
+
+  75% {
+    content: 'Start Work';
+  }
+
+  100% {
+    content: 'Relax & take Handover';
+  }
+
+}
+
+.what_you_get_grid_img {
+  width: 70px;
+  height: auto;
+  margin: auto;
+  fill: #cda17c;
+}
+
+.circle_div_bg {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  background-color: #4b4b4b;
+  border-radius: 99999px;
+}

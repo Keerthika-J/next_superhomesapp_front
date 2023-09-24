@@ -1,0 +1,23 @@
+/* input[type="checkbox"]
+{
+    margin: 10px;
+}
+select
+{
+    outline-color: transparent;
+} */
+.downloadFileModal button
+{
+    border: 1px solid #323232;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: white;
+    width: 20rem;
+}
+.downloadFileModal button:hover
+{
+    color: white;
+    background-color: #323232;
+    border: 1px solid white;
+}
